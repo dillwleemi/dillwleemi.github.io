@@ -1,0 +1,160 @@
+header {
+    background-color: #9DFFB9;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+.fon {
+    width: 100%;
+}
+.lele {
+    text-align: center;
+}
+.background {
+    background-repeat: repeat;
+}
+h4 {
+    color: #9DFFB9;
+    font-size: 50%;
+}
+.text {
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-shadow: 1px 1px 4px #797979;
+    font-size: 500%;
+} 
+p {
+    color: #5F6980;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.lines {
+    float: right;
+}
+.lili {
+    width: 40%;
+    float: right;
+}
+.one {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+.two {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin: 20px;
+}
+.three {
+    color: rgb(222, 222, 222);
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.cards {
+    color: #5F6980;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.cardss {
+    width: 40%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.company-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.company {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.cta-button {
+    background-color: #9DFFB9;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    float: left;
+}
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    float: right;
+}
+.header p {
+    text-align: right;
+}
+.container {
+    width: 80%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px 0;
+}
+.item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.text {
+    padding: 20px;
+}
+.text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.text p {
+    font-size: 14px;
+    color: gray;
+}
+.case-study {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+button {
+    grid-column: span 2;
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
